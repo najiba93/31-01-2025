@@ -1,0 +1,60 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.logo {
+  width: 30px;
+  font-size: larger;
+  color: #c56015;
+}
+a{
+  text-decoration: none;
+  color: #adb5bd;
+}
+
+
+nav {
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  width: 40%;
+}
+.input{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button{
+  background-color:rgba(174, 229, 194, 0.904) ;
+  height: 30%;
+  border-radius: 10px;
+  font-size:larger;
+  
+}
+input {
+  height: 20%;
+  flex: 1;
+  
+}
+.logo{
+ flex-direction: column;
+}
